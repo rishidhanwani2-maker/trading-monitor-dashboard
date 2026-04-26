@@ -283,3 +283,7 @@ try:
 except:
 
     st.write("Option chain unavailable (NSE block)")
+
+import os
+os.system("pip install yfinance pandas requests streamlit-autorefresh lxml")
+    
