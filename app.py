@@ -1,3 +1,5 @@
+import os
+os.system("pip install yfinance pandas requests streamlit-autorefresh lxml")
 import streamlit as st
 import yfinance as yf
 import pandas as pd
@@ -284,6 +286,4 @@ except:
 
     st.write("Option chain unavailable (NSE block)")
 
-import os
-os.system("pip install yfinance pandas requests streamlit-autorefresh lxml")
     
